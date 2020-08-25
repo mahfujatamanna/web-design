@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;515;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.{
+    margin: 0%;
+    padding: 0%;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Quicksand', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+a,span,p,input{
+    font-family: 'Roboto', sans-serif;
+}
+
+.header{
+    width: 100%;
+    background: #fff;
+    padding: 20px;
+}
+.header span{
+   font-size: 25px;
+   font-weight: 600;
+   margin-left: 5px;
+
+}
+.banner{
+    width: 100%;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.row{
+    width: 100%;
+    float: left;
+    margin:o 15px;
+
+}
+.col-6{
+    width: 40%;
+    float: left;
+
+
+}
+.col-7{
+    width: 60%;
+    float: left;
+}
+.col-1{
+    width: 15% !important;
+    float: left !important;
+}
+.col-11{
+    width: 85% !important;
+    float: right !important;
+}
+.banner .left{
+       padding: 64px;
+    }
+.banner .left h1{
+    font-size: 50px;
+    margin: 10px;
+}
+.banner .left p{
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 18px;
+    color: #4c527d;
+}
+.banner button{
+    padding: 20px 50px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    border: 2px solid #ed6524;
+    margin-right: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.banner .left-button{
+    background: #ed6524;
+   font-size: 18px;
+    color: white;
+}
+.banner .right-button{
+    background: #fff;
+    font-size: 18px;
+    color: #ed6524;
+}
+.testimonial{
+    width: 100%;
+    margin: 30px 0;
+}
+.message{
+    height: 140px;
+    width: 100%;
+    background: #f6f4fc;
+    border-left: 4px solid #f5a782;
+    position: relative;
+}
+.message p{
+    font-size: 14px;
+    padding: 25px;
+    font-style: italic;
+}
+.corner-box{
+    height: 30px;
+    width: 30px;
+    background:#f6f4fc;
+    position: absolute;
+    bottom: -15px;
+    left: 5%;
+    transform: rotate(45deg);
+}
+.user{
+    width:100% ;
+
+    height: 70px;
+    margin-top: 21px;
+}
+.user img {
+    width: 74px;
+}
+.user-info{
+    margin: 15px 10px;
+}
+.user-info p{margin: 0 !important;
+            padding: 0 !important;
+            font-weight: 400 !important;
+            line-height: 18px !important;
+            font-size: 14px !important;
+}
+.banner-right{
+    margin-left: 60px;
+}
+.see-all{
+    width: 100%;text-align: center !important;
+}
